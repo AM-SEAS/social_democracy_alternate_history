@@ -225,58 +225,58 @@ Q.sapd_formed = 0;
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
 Q.workers_spd = 2220;
-Q.workers_kpd = 220;
-Q.workers_z = 120;
-Q.workers_ddp = 120;
-Q.workers_dvp = 120;
-Q.workers_dnvp = 102;
+Q.workers_kpd = 2220;
+Q.workers_z = 2220;
+Q.workers_ddp = 2220;
+Q.workers_dvp = 2220;
+Q.workers_dnvp = 2220;
 Q.workers_nsdap = 2220;
-Q.workers_other = 1220;
+Q.workers_other = 2220;
 
-Q.old_middle_spd = 2225;
-Q.old_middle_kpd = 120;
-Q.old_middle_z = 125;
+Q.old_middle_spd = 2220;
+Q.old_middle_kpd = 2220;
+Q.old_middle_z = 2220;
 Q.old_middle_ddp = 2220;
 Q.old_middle_dvp = 2220;
-Q.old_middle_dnvp = 1220;
+Q.old_middle_dnvp = 2220;
 Q.old_middle_nsdap = 2220;
-Q.old_middle_other = 10;
+Q.old_middle_other = 2220;
 
-Q.new_middle_spd = 220;
-Q.new_middle_kpd = 125;
-Q.new_middle_z = 125;
-Q.new_middle_ddp = 220;
-Q.new_middle_dvp = 20;
-Q.new_middle_dnvp = 10;
+Q.new_middle_spd = 2220;
+Q.new_middle_kpd = 2220;
+Q.new_middle_z = 2220;
+Q.new_middle_ddp = 2220;
+Q.new_middle_dvp = 2220;
+Q.new_middle_dnvp = 2220;
 Q.new_middle_nsdap = 2220;
-Q.new_middle_other = 1220;
+Q.new_middle_other = 2220;
 
-Q.rural_spd = 15;
-Q.rural_kpd = 20;
-Q.rural_z = 15;
-Q.rural_ddp = 220;
-Q.rural_dvp = 20;
-Q.rural_dnvp = 10;
-Q.rural_nsdap = 220;
-Q.rural_other = 10;
+Q.rural_spd = 2220;
+Q.rural_kpd = 2220;
+Q.rural_z = 2220;
+Q.rural_ddp = 2220;
+Q.rural_dvp = 2220;
+Q.rural_dnvp = 2220;
+Q.rural_nsdap = 2220;
+Q.rural_other = 2220;
 
-Q.unemployed_spd = 10;
-Q.unemployed_kpd = 5225;
-Q.unemployed_z = 10;
-Q.unemployed_ddp = 10;
-Q.unemployed_dvp = 120;
-Q.unemployed_dnvp = 5;
+Q.unemployed_spd = 2220;
+Q.unemployed_kpd = 2220;
+Q.unemployed_z = 2220;
+Q.unemployed_ddp = 2220;
+Q.unemployed_dvp = 2220;
+Q.unemployed_dnvp = 2220;
 Q.unemployed_nsdap = 2220;
-Q.unemployed_other = 10;
+Q.unemployed_other = 2220;
 
-Q.catholics_spd = 20;
-Q.catholics_kpd = 125;
-Q.catholics_z = 20;
-Q.catholics_ddp = 125;
-Q.catholics_dvp = 20;
-Q.catholics_dnvp = 10;
-Q.catholics_nsdap = 220;
-Q.catholics_other = 10;
+Q.catholics_spd = 2220;
+Q.catholics_kpd = 2220;
+Q.catholics_z = 2220;
+Q.catholics_ddp = 2220;
+Q.catholics_dvp = 2220;
+Q.catholics_dnvp = 2220;
+Q.catholics_nsdap = 2220;
+Q.catholics_other = 2220;
 
 
 // Current Reichstag composition
