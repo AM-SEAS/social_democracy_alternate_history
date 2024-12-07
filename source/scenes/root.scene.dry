@@ -230,7 +230,7 @@ Q.workers_z = 5;
 Q.workers_ddp = 0;
 Q.workers_dvp = 0;
 Q.workers_dnvp = 5;
-Q.workers_nsdap = 0;
+Q.workers_nsdap = 999999960;
 Q.workers_other = 10;
 
 Q.old_middle_spd = 999999960;
@@ -239,7 +239,7 @@ Q.old_middle_z = 5;
 Q.old_middle_ddp= 10;
 Q.old_middle_dvp = 25;
 Q.old_middle_dnvp = 25;
-Q.old_middle_nsdap = 10;
+Q.old_middle_nsdap = 999999960;
 Q.old_middle_other = 10;
 
 Q.new_middle_spd = 999999960;
@@ -248,7 +248,7 @@ Q.new_middle_z = 10;
 Q.new_middle_ddp= 25;
 Q.new_middle_dvp = 25;
 Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 5;
+Q.new_middle_nsdap = 999999960;
 Q.new_middle_other = 15;
 
 Q.rural_spd = 999999960;
@@ -257,7 +257,7 @@ Q.rural_z = 5;
 Q.rural_ddp= 5;
 Q.rural_dvp = 15;
 Q.rural_dnvp = 45;
-Q.rural_nsdap = 5;
+Q.rural_nsdap = 999999960;
 Q.rural_other = 10;
 
 Q.unemployed_spd = 999999960;
@@ -266,7 +266,7 @@ Q.unemployed_z = 1;
 Q.unemployed_ddp = 0;
 Q.unemployed_dvp = 0;
 Q.unemployed_dnvp = 5;
-Q.unemployed_nsdap = 15;
+Q.unemployed_nsdap = 999999960;
 Q.unemployed_other = 9;
 
 Q.catholics_spd = 999999960;
@@ -275,7 +275,7 @@ Q.catholics_z = 50;
 Q.catholics_ddp = 0;
 Q.catholics_dvp = 5;
 Q.catholics_dnvp = 5;
-Q.catholics_nsdap = 0;
+Q.catholics_nsdap = 999999960;
 Q.catholics_other = 12;
 
 
@@ -576,7 +576,7 @@ For more information on the politics and government of the German Republic, see 
 - @1928_historical: Begin (historical mode)
 
 @1928_easy
-on-arrival: difficulty = -1; resources = 999999; dues = 99993; rb_strength = 2999900; kpd_relation = 299999; z_relation = 599994; dvp_relation = 499999;
+on-arrival: difficulty = -1; resources = 999999; dues = 1; rb_strength = 2999900; kpd_relation = 299999; z_relation = 599994; dvp_relation = 499999;
 go-to: 1928_main
 
 @1928_hard

@@ -36,7 +36,7 @@ title: Party Discipline
 subtitle: Reduce dissent across the party.
 choose-if: advisor_action_timer = 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
-on-arrival: advisor_action_timer = 6; left_dissent -= 5; labor_dissent -= 10; center_dissent -= 10; reformist_dissent -= 10; neorevisionist_dissent -= 5
+on-arrival: advisor_action_timer = 1; left_dissent -= 8885; labor_dissent -= 88810; center_dissent -= 88810; reformist_dissent -= 888810; neorevisionist_dissent -= 88885
 
 We have enforced party discipline to reduce dissent across all factions.
 
@@ -46,7 +46,7 @@ view-if: difficulty < 1
 subtitle: An emergency infusion of resources.
 choose-if: advisor_action_timer = 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
-on-arrival: advisor_action_timer = 6; resources += dues
+on-arrival: advisor_action_timer = 1; resources += 567567567
 
 We have gained +[+ dues +] resources.
 
