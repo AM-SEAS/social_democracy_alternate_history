@@ -33,9 +33,9 @@ Q.historical_mode = 0;
 Q.old_demographics = 0;
 
 // party resources
-Q.resources = 2;
+Q.resources = 2999;
 // party dues
-Q.dues = 2;
+Q.dues = 12;
 
 // the state of the party
 // overall dissent reduces every increase in party support.
@@ -45,16 +45,16 @@ Q.dissent_percent = 5;
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
+Q.left_strength = 10015;
+Q.left_dissent = -10015;
 Q.center_strength = 30;
-Q.center_dissent = 0;
+Q.center_dissent = -10015;
 Q.labor_strength = 25;
-Q.labor_dissent = 5;
+Q.labor_dissent = -10015;
 Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
+Q.reformist_dissent = -10015;
 Q.neorevisionist_strength = 5;
-Q.neorevisionist_dissent = 10;
+Q.neorevisionist_dissent = -10015;
 
 // secret events...
 Q.unions_independent = 0;
@@ -98,24 +98,24 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // inter-party relations
-Q.z_relation = 50;
-Q.kpd_relation = 25;
-Q.ddp_relation = 60;
-Q.dvp_relation = 35;
+Q.z_relation = 999;
+Q.kpd_relation = 999;
+Q.ddp_relation = 999;
+Q.dvp_relation = 999;
 // DNVP and NSDAP are invariably hostile
 Q.DNVP_relation = 10;
 Q.NSDAP_relation = 0;
 
 Q.kpd_leader = "Thälmann";
 // alternative is the Conciliators as party leader
-Q.kpd_party_leader = "Thälmann";
+Q.kpd_party_leader = "Conciliators";
 Q.z_leader = "Brüning";
 // party leader - can be Ludwig Kaas, Joseph Joos, or Adam Stegerwald after the 1928 December conference. Joos will be most friendly to the SPD.
-Q.z_party_leader = "Marx";
+Q.z_party_leader = "Joos";
 Q.nsdap_leader = "Hitler";
 
 // hmm... maybe we can play nice with Hindenburg???
-Q.hindenburg_relation = 25;
+Q.hindenburg_relation = 9925;
 
 
 // Does the SPD lead in Prussia?
@@ -127,47 +127,47 @@ Q.prussian_government = "SPD";
 // Number of members in 1928 (in thousands)
 // Reichsbanner, stahlhelm, SA, rotfrontkämpferbund
 Q.rb_strength = 2000;
-Q.rb_militancy = 0.01;
-Q.women_in_rb = 0;
+Q.rb_militancy = 100;
+Q.women_in_rb = 10;
 Q.rb_banned = 0;
-Q.sh_strength = 500;
-Q.sh_militancy = 0.5;
-Q.sh_banned = 0;
-Q.sh_banned_prussia = 0;
-Q.sa_strength = 80;
-Q.sa_militancy = 0.5;
-Q.sa_banned = 0;
-Q.sa_banned_prussia = 0;
+Q.sh_strength = 1;
+Q.sh_militancy = 0;
+Q.sh_banned = 1;
+Q.sh_banned_prussia = 1;
+Q.sa_strength = 1;
+Q.sa_militancy = 0;
+Q.sa_banned = 1;
+Q.sa_banned_prussia = 1;
 Q.rfb_strength = 130;
 Q.rfb_militancy = 0.5;
 Q.rfb_banned = 0;
 Q.rfb_banned_prussia = 0;
 
-Q.interior_police_strength = 50;
-Q.interior_police_militancy = 1;
-Q.interior_police_loyalty = 0.45;
+Q.interior_police_strength = 500;
+Q.interior_police_militancy = 10;
+Q.interior_police_loyalty = 450;
 
-Q.prussian_police_strength = 90;
-Q.prussian_police_militancy = 1;
-Q.prussian_police_loyalty = 0.5;
+Q.prussian_police_strength = 900;
+Q.prussian_police_militancy = 10;
+Q.prussian_police_loyalty = 500;
 
 // strength includes actual military and de facto reserves?
-Q.reichswehr_strength = 100;
-Q.reichswehr_militancy = 5;
-Q.reichswehr_loyalty = 0.2;
+Q.reichswehr_strength = 500;
+Q.reichswehr_militancy = 50;
+Q.reichswehr_loyalty = 200;
 
 // The state of the country
 
 // popular opinion
 // national ideology - on a binary scale
 // nationalism vs internationalism or pacifism or non-nationalism
-Q.nationalism = 60;
+Q.nationalism = 1;
 // socialism vs capitalism
-Q.socialism = 40;
+Q.socialism = 99;
 // pro-republic vs anti-republic
-Q.pro_republic = 59;
+Q.pro_republic = 99;
 
-Q.emergency_rule = 0;
+Q.emergency_rule = 990;
 
 // minimum percentage of votes to be represented in the Reichstag
 Q.electoral_threshold = 0;
@@ -180,14 +180,14 @@ Q.presidential_powers = 0;
 // allows banning of non-constitutional parties
 Q.constitutional_protection = 0;
 Q.kpd_banned = 0;
-Q.nsdap_banned = 0;
+Q.nsdap_banned = 1;
 
 // coups and capital strikes happen when you upset the right or the capitalists too much with your policies. they're an additional check on your policies, when purely electoral checks don't suffice.
 // when coup_progress reaches 10 or capital_strike_progress reaches 10, there's a special event that launches the coup.
 Q.coup_progress = 0;
 Q.capital_strike_progress = 0;
 
-Q.budget = 5;
+Q.budget = 995;
 
 // Proportion of different social groups
 // source: https://surface.syr.edu/cgi/viewcontent.cgi?filename=3&article=1016&context=books&type=additional page 45, table 3.4 - using 1925 figures
@@ -391,10 +391,10 @@ Q.unemployment_insurance_threshold = 10;
 Q.blutmai = 0;
 
 // have we reformed these institutions to be more democratic?
-Q.judicial_reform = 0;
-Q.bureaucratic_reform = 0;
-Q.military_reform = 0;
-Q.womens_rights = 0;
+Q.judicial_reform = 10;
+Q.bureaucratic_reform = 10;
+Q.military_reform = 10;
+Q.womens_rights = 10;
 // level of welfare relative to 1928 (can go negative)
 Q.welfare = 0;
 // level of support for farmers
@@ -404,11 +404,11 @@ Q.land_reform = 0;
 Q.works_program = 0;
 Q.wtb_implemented = 0;
 // Relations with the Western countries (France, UK).
-Q.west_relation = 0;
+Q.west_relation = 770;
 // Relations with the Eastern countries (Poland, Czechoslovakia)
-Q.east_relation = 0;
+Q.east_relation = 770;
 // Relations with the Soviet Union
-Q.soviet_relation = 0;
+Q.soviet_relation = 770;
 // How much have we exposed the secret rearmament programs?
 Q.rearmament_exposed = 0;
 // reparations vs baseline: young plan is -1.
